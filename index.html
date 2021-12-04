@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+            Resume: Yashvi Raythatha
+        </title>
+        <link rel ="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lykmapipo/themify-icons@0.1.2/css/themify-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <style>
+            header {
+                height: 100%;
+                width: 100%;
+                text-align: center;
+                padding-top: 100px;
+                color: white;
+                background: #027581;  /* fallback for old browsers */
+                background: linear-gradient(#000000, rgb(110,104,102,0.7)), url("./images/education.jpg");  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(#000, rgba(110, 104, 102, 0.7)), url("./images/education.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                background-size: auto;
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body onload="typeWriter()">
+        <nav class="navMenu">
+            <a href="index.html" id="profile">Profile</a>
+            <a href="technical_skills.html" id="ts">Technical Skills</a>
+            <a href="experience.html" id="exp">Experience</a>
+            <a href="education.html" id="edu">Education</a>
+            <a href="achievements.html" id="ach">Achievements</a>
+            <a href="projects.html" id="pro">Projects</a>
+            <a href="contact.html" id="con">Contact</a>
+            <div class="dot"></div>
+          </nav>
+        <div class="main-content">
+            <main>
+                <header>
+                    <section class='hero-header' style="position: relative; top:7%">
+                        <img src="./images/Yashvi_Profile.jpg" width="250px" height="250px" style="border-radius: 10%;position: relative;"/>
+                        <h1 id="demo" style="font-size: 50px;color: yellow;"></h1>
+                        <p style="text-align: center;">
+                            I am a dedicated , passionate and energetic engineer who is always curious to know about
+                            the latest trends in Computer Engineering<br>
+                            field and is always eager to learn them. I am
+                            hard working and very punctual in my work.<br>
+                            I am always ready to grow myself by exploring new things.</p>
+                            <br>
+                    </section>
+                </header>
+            </main>
+        </div>
+        <script>
+            var i = 0;
+            var txt = 'I am Yashvi Raythatha';
+            var speed = 50;
+            
+            function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }
+            </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
