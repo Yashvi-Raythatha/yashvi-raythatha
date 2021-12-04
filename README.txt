@@ -7,3 +7,5 @@ Next webpage is of My Achievements which contains few achievements that I have a
 Next webpage is of My recent projects which contains the breif idea of my recent projects.
 Next webpage is of Contact through which you can get my contact details.
 You can view my portfolio here: https://yashvi-raythatha.github.io/yashvi-raythatha/index.html
+
+Please Note: Open it in laptop. It is not responsive.
